@@ -244,7 +244,7 @@ class WhispPlugin {
 
 
 if(isset($_GET['whisp_delete'])){
-    $id = $_GET['whisp_delete'];
+    $id = intval($_GET['whisp_delete']);
     $table = 'wp_whisp';
     $wpdb->delete( $table, array( 'id' => $id ) );
 }
