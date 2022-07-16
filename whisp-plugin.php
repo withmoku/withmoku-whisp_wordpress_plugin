@@ -20,6 +20,15 @@ if(!defined('ABSPATH')) {
 
 class WhispPlugin {
 
+  function __construct() {
+    add_action('admin_menu', array( $this, 'whisp_add_pages'));
+    add_action('wp_enqueue_scripts', array( $this, 'load_scripts'));    
+    add_action('admin_enqueue_scripts', array( $this, 'load_scripts'));
+    add_action( 'admin_post_nopriv_save_my_custom_form', array( $this, 'whisp_save_form'));
+    add_action( 'admin_post_save_my_custom_form', array( $this, 'whisp_save_form'));
+    add_shortcode('WHISP', array( $this, 'whisp_shortcode_function'));
+  }
+
   function whisp_activate() {
     global $wpdb;
     global $table_prefix;
@@ -66,7 +75,7 @@ class WhispPlugin {
           __( 'WHISP','textdomain' ),
           'manage_options',
           'whisp_form',
-            array( $this, 'whisp_page_callback'),
+           array( $this, 'whisp_page_callback'),
           'dashicons-wordpress-alt'
       );
   }
@@ -84,9 +93,12 @@ class WhispPlugin {
   }
 
 
+
    function whisp_page_callback() {
     global $session;
-    echo '<h1>WHISP Custom Code </h1><button style="border: 1px solid #2271b1; font-weight: bold; color: #2271b1" type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Add New</button><br /><br />';
+    echo '<h1>WHISP Custom Code </h1><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#myModal" style="border: 1px solid #2271b1; font-weight: bold; color: #2271b1">
+  Add New
+</button><br /><br />';
     echo '  <div class="modal fade" id="myModal" role="dialog">
       <div class="modal-dialog">
       
@@ -245,9 +257,3 @@ if( class_exists('WhispPlugin')) {
 
 register_activation_hook( __FILE__, array( $whispplugin, 'whisp_activate'));
 register_deactivation_hook( __FILE__, array( $whispplugin, 'whisp_remove_database'));
-add_action('admin_menu', array( $whispplugin, 'whisp_add_pages'));
-add_action('wp_enqueue_scripts', array( $whispplugin, 'load_scripts'));    
-add_action('admin_enqueue_scripts', array( $whispplugin, 'load_scripts'));
-add_action( 'admin_post_nopriv_save_my_custom_form', array( $whispplugin, 'whisp_save_form'));
-add_action( 'admin_post_save_my_custom_form', array( $whispplugin, 'whisp_save_form'));
-add_shortcode('WHISP', array( $whispplugin, 'whisp_shortcode_function'));
