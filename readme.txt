@@ -21,35 +21,11 @@ Making the world a better place through elegant lead capture technology.
 
 = Contributor & Developer =
 
-= Author =
 
 Contributor by [__WithMoku.com__](https://withmoku.com/)
 
-Designed and Developed by [__Rogelio Villarin Jr__](https://team.whisp.io/rogeliov)
+Developed by [__Rogelio Villarin Jr__](https://team.whisp.io/rogeliov)
 
-
-<table style='border: 0px;'>
-<tr>
-<td style='padding-right: 15px;'>
-<img style="
-width: 50px;
- border-radius: 110px;
- height: 35px;
-" src="https://cdn.msgsndr.com/location%2FJ7kaOVNPSKv19GIgGmjL%2Fimages%2Fecc8d498-6be7-431f-be33-e2cc64730c6b.png?alt=media" alt="" class="full-width-img img-none img-border-none img-shadow-none img-effects-none" height="auto" width="auto" loading="lazy">
-</td>
-<td><a style='text-decoration: none;' href="https://withmoku.com/">withmoku.com</a></td>
-</tr>
-<tr>
-<td>
-<img style="
-width: 35px;
- border-radius: 110px;
- height: 35px;
-" src="https://assets.cdn.msgsndr.com/Xped5c2jrqgZhhg67y1J/media/62c8425bdd79eee174055f3a.png" alt="" class="full-width-img img-none img-border-none img-shadow-none img-effects-none" height="auto" width="auto" loading="lazy">
-</td>
-<td><a style='text-decoration: none;' href="https://team.whisp.io/rogeliov">Rogelio Villarin Jr.</a></td>
-</tr>
-</table>
 
 == Installation ==
 
