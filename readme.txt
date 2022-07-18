@@ -22,7 +22,7 @@ Making the world a better place through elegant lead capture technology.
 = Contributor & Developer =
 
 
-Contributor by [__WithMoku.com__](https://withmoku.com/)
+Contributor by [__WHISP__](https://whisp.io/)
 
 Developed by [__Rogelio Villarin Jr__](https://team.whisp.io/rogeliov)
 
