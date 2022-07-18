@@ -19,10 +19,13 @@ centralize around unique identifier.The CELL number.
 
 Making the world a better place through elegant lead capture technology.
 
-= Contributor & Developer =
+
+= Contributor, Author & Developer =
 
 
 Contributor by [__WHISP__](https://whisp.io/)
+
+Author by [__Todd Westra__](https://team.whisp.io/todd-westra)
 
 Developed by [__Rogelio Villarin Jr__](https://team.whisp.io/rogeliov)
 
