@@ -19,7 +19,14 @@ centralize around unique identifier.The CELL number.
 
 Making the world a better place through elegant lead capture technology.
 
-= Contributors & Developers =
+= Contributor & Developer =
+
+= Author =
+
+Contributor by [__WithMoku.com__](https://withmoku.com/)
+
+Designed and Developed by [__Rogelio Villarin Jr__](https://team.whisp.io/rogeliov)
+
 
 <table style='border: 0px;'>
 <tr>
